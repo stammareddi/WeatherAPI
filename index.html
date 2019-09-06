@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="loading"  >Fetching Api...</div>
+  <div class="location">
+    <h1 class = "location-timezone">Timezone</h1>
+    <canvas class="icon" width="128" height="128"></canvas>
+  </div>
+
+  <div class = "temperature">
+    <h4 class="convert">Click to convert</h4>
+    <div class="degree-section">
+      
+      <h2 class="temperature-degree">0</h2>
+      <span>F</span>
+  </div>
+    <div class="temperature-description">Hourly</div>
+    <div class="temperatureFuture">Future</div>
+  </div>
+
+  <script src="skycons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
